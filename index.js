@@ -8,11 +8,6 @@ page.addEventListener('click', function () {  // // button save page
     if (!pageValidation(userPage)) {
         return;
     }
-    if (savedPage === userPage) { // deletes the first link if clicked a second time
-        savedPage = '';
-        alert('link del')
-        return;
-    }
      savedPage = userPage;
 })
 
